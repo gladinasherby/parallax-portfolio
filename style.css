@@ -28,8 +28,9 @@ body{
     background: url("./images/base.png") top center;
     background-size:cover;
     transform:translateZ(-1px) scale(2.2);
-    filter:blur(2px);
+    /* filter:blur(2px); */
 }
+
 .section-1::after{
     content:"";
     width:100%;
@@ -43,7 +44,7 @@ top:30%;
 transform:translateZ(-0.5px) scale(1.8,1.7) translate(-30%,10%)
 }
 .section-2{
-    background-color: rgb(215, 140, 211);
+    background-color: #537976;
 }
 
 .text{
@@ -51,7 +52,7 @@ transform:translateZ(-0.5px) scale(1.8,1.7) translate(-30%,10%)
     left:50%;
     position:absolute;
     font-size: 15vw;
-    color:white;
+    color:#ab94d2;
     font-family: 'Franklin Gothic Heavy';
     text-shadow:2px 2px 5px rgba(0,0,0,0.5), 5px 5px 70px rgba(255,255,255,0.5);
     transform:scale(1,1) translate(-50%,10%);
